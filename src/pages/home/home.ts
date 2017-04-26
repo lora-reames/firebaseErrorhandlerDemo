@@ -10,5 +10,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+  throwError(){
+    throw new Error('I am a bug... 🐛');
+  }
 }
